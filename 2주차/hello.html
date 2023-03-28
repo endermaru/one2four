@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first web page</title>
+    <script src=index.js></script>
+    <script>
+    function change_color(){
+      document.body.style.backgroundColor = getRandomColor(); // 배경색을 무작위로 설정
+    }
+    </script>
+  </head>
+  <body>
+    <h1 id="title"> My first web page</h1>
+    <!--document.getElementById('title')로 id를 가진 행을 불러옴-->
+    <p>This is my first paragraph.</p>
+    <button onclick=change_color()>click me!</button>
+  </body>
+</html>
