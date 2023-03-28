@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color: #c7fffa;
+  }
+  
+  section {
+    background-color: #13ffd8;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  #game-board {
+    background-color: #c7fffa;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #game-board button {
+    font-size: 1.5em;
+    width: 30%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #13ffd8;
+    border: 1px solid #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #game-board button:hover {
+    background-color: #ffd7b3;
+    color: white;
+  }
+  
+  #panel {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #game-record {
+    background-color: #c7fffa;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #game-record li {
+    margin-bottom: 5px;
+  }
+  
+  button#me, button#cpu {
+    font-size: 1.5em;
+    background-color: #13ffd8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button#me:hover, button#cpu:hover {
+    background-color: #ffd7b3;
+    color: white;
+  }
+  
+  p1 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  br {
+    margin: 10px 0;
+  }
+  

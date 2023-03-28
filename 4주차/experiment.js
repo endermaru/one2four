@@ -30,11 +30,20 @@
 // };
 // console.log(john.age);
 
-const myButton = document.getElementById("button1");
-myButton.addEventListener("click", function () {
-    console.log("!");
-    const actionStatus = document.getElementById("title");
-    let clickStatus = document.createElement("div");
-    clickStatus.innerHTML = "Button clicked!";
-    actionStatus.appendChild(clickStatus);
-});
+// const myButton = document.getElementById("button1");
+// myButton.addEventListener("click", function () {
+//     console.log("!");
+//     const actionStatus = document.getElementById("title");
+//     let clickStatus = document.createElement("div");
+//     clickStatus.innerHTML = "Button clicked!";
+//     actionStatus.appendChild(clickStatus);
+// });
+
+function A(n){
+  console.log(n);  
+};
+
+function B(f,s){
+    f(s);
+}
+B(A,'d');
